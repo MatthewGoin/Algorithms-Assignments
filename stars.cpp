@@ -1,3 +1,7 @@
+//driver for the stars program
+//uses Greedy algorithm to find the shortest traversal visiting all stars in a 3 dimensional space.
+//added libraries are for other unincluded versions of this program.
+//delete unnecessary libraries before compilaiton
 #include <iostream>
 #include <string>
 #include <sstream>
