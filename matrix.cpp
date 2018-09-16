@@ -1,3 +1,17 @@
+//certain libraries present for unincluded versions of this implementation
+// make sure to delete unnecessary libraries before compilation.
+
+//a few different implementations of the same task.
+//I found a faster more efficient method than the method the professor wanted us to use.
+//but also included his required method in the code below
+
+//A program to compute SpiderMan's social network(the most frequent appearing character in the comic series)
+//very similar to the "Kevin Bacon" number
+
+//uses matrix multiplication to compute if a character has directly appeared in comic with spider man, or has appeared
+//in a comic with a character who has directly appeared in a comic with spider man etc.
+
+
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -69,7 +83,7 @@ int spiderMan(int x){
 
                 }
             }
-            //here is where I would add “i” to an array at position: spiderManMatrix[5305][x] > 0;
+            //here is where I would add â€œiâ€ to an array at position: spiderManMatrix[5305][x] > 0;
             //that way we have O(1) lookup for any marvel character.
 
         }
